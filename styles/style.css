@@ -73,6 +73,9 @@ html, body{
 	margin-left: auto;
     margin-right: auto;
 	padding: 5px;
+    border-radius: 10px;
+    border: solid #06070E 5px;
+    margin-top: 10px;
 }
 td{
     margin-left: 0;
@@ -86,6 +89,7 @@ tr{
 }
 .trContent:hover{
     background-color: #94A187;
+    color: #06070E;
 }
 table{
     font-family: fantasy;
@@ -105,6 +109,10 @@ table{
 }
 .tableInformation{
     font-size: 15px;
+}
+
+.productsHeader{
+    text-align: center;
 }
 
 /*TODO(andrew): make sure this all works correctly*/
