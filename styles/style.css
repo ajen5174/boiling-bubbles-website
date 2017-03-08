@@ -11,7 +11,8 @@ html, body{
 	height: 100px;
 	display:flex;
 	justify-content: center;
-	
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 20px;
 }
 
 .navBar img{
@@ -20,7 +21,7 @@ html, body{
 }
 
 .navBar ul{
-	padding: 41px 0px 41px 0px;
+	padding: 38px 0px 38px 0px;
 	margin: 0px;
 	
 }
