@@ -1,0 +1,38 @@
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+    color: #06070E;
+}
+
+div {
+    text-align: center;
+    width: 70%;
+    background-color: #94A187;
+    margin-left: 13%;
+    border-radius: 10px;
+    border: solid #06070E 5px;
+    margin-top: 10px;
+}
+
+#slideshowDiv {
+    width: 70%;
+    top: 20%;
+    margin-top: 10px;
+    height: 400px;
+}
+
+#logo {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-left: 4%;
+}
+
+html {
+    background-color: #29524a;
+}
+
+p {
+    color: #06070E;
+    margin: 20px;
+    font-family: Impact, Charcoal, sans-serif;
+}
