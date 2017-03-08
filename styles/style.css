@@ -1,0 +1,57 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #29524A;
+	height: 100%;
+}
+/*nav bar*/
+.navBar{
+	background-color: #C5AFA0;
+	padding: 0px;
+	height: 43px;
+	display:flex;
+	justify-content: center;
+}
+
+.navBar ul{
+	padding: 13px 0px 13px 0px;
+	margin: 0px;
+}
+.navBar li{
+	display: inline;
+	padding: inherit;
+	margin: inherit;
+	
+}
+
+.navBar li a{
+	padding-top: inherit;
+	padding-bottom: inherit;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: inherit;
+}
+
+.active{
+	background-color: #94A187;
+	
+}
+
+.navBar a:link, a:active, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.navBar li:hover{
+	background-color: #94A187;
+	
+}
+
+.sectionContent{
+	width: 75%;
+	height: 75%;
+	background-color: #E9BCB7;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 5px;
+}
