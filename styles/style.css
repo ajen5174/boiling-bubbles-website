@@ -8,14 +8,21 @@ html, body{
 .navBar{
 	background-color: #C5AFA0;
 	padding: 0px;
-	height: 43px;
+	height: 100px;
 	display:flex;
 	justify-content: center;
+	
+}
+
+.navBar img{
+	height: auto;
+	width: 100px;
 }
 
 .navBar ul{
-	padding: 13px 0px 13px 0px;
+	padding: 41px 0px 41px 0px;
 	margin: 0px;
+	
 }
 .navBar li{
 	display: inline;
@@ -27,8 +34,8 @@ html, body{
 .navBar li a{
 	padding-top: inherit;
 	padding-bottom: inherit;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
 	margin: inherit;
 }
 
