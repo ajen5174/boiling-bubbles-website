@@ -43,16 +43,16 @@
 			<p>We can be found at boilingbubblesbusiness@gmail.com, or you can send us a comment below!</p>
 			<form>
 				<label for="name">Name:</label><br>
-				<input type="text" id="name">
+				<input type="text" id="name" required>
 				<br>
 				<label for="email">Email:</label><br>
-				<input type="text" id="email">
+				<input type="text" id="email" required>
 				<br>
 				<label for="comment">Comments:</label><br>
-				<textarea name="comment" id="comment" rows="5" cols="20"></textarea>
+				<textarea name="comment" id="comment" rows="5" cols="20" required></textarea>
 				<br>
 				<label for="submit">Submit:</label><br>
-				<input value="Submit" type="button" id="submit" onclick="submitButtonOnPress()">
+				<input value="Submit" type="submit" id="submit" onclick="submitButtonOnPress()">
 			</form>
 		</section>
 	</body>
